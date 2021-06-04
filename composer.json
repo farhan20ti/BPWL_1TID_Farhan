@@ -1,0 +1,15 @@
+{
+    "name": "farhan/login_api_farhan",
+    "description": "Login API Punya Farhan",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Farhan Naufaldy",
+            "email": "farhan.naufaldy2811@gmail.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.9"
+    }
+}
