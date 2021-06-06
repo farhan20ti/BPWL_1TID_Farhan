@@ -9,5 +9,5 @@ if (isset($_SESSION['access_token']) && $_SESSION['access_token']) {
   echo "<h3>Hai, ". $profile['givenName']. " (". $profile['email']  .")</h3>";
   echo "Anda telah berhasil login menggunakan akun google anda, klik <a href='logout.php'>Logout</a> untuk keluar.";
 } else {
-  echo "<a href='auth.php'>Login dengan Akun Google</a>";
+  echo "<a href='auth.php'>Login dengan Akun Google Anda</a>";
 }
